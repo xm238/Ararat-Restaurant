@@ -470,25 +470,19 @@ section {
 }
 
 .map-box {
-  position: relative;
   border-radius: var(--radius-lg);
   overflow: hidden;
   min-height: 320px;
+  height: clamp(320px, 40vw, 520px);
+  aspect-ratio: 16 / 10;
   box-shadow: var(--shadow-hard);
   background: #efe6d8;
 }
 
-.map-embed {
-  position: absolute;
-  inset: 0;
-}
-
 .map-box iframe {
-  position: absolute;
-  inset: 0;
   width: 100% !important;
   height: 100% !important;
-  min-height: 100%;
+  min-height: 320px;
   border: 0;
   display: block;
 }
@@ -577,8 +571,21 @@ section {
 
 .menu-search-icon {
   color: rgba(93, 39, 52, 0.72);
-  font-size: 0.98rem;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.menu-search-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .menu-search {
@@ -900,7 +907,7 @@ section {
 
   .contact-grid {
     grid-template-columns: 1.1fr 1fr;
-    align-items: stretch;
+    align-items: start;
   }
 
   .menu-items-grid {
