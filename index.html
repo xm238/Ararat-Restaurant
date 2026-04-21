@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ararat Terrace Restaurant & Rooftop</title>
+  <meta name="description" content="Ararat Terrace Restaurant & Rooftop - Blue Mosque manzarası eşliğinde özel bir İstanbul deneyimi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body data-page="landing">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-left">
+        <nav class="main-nav" aria-label="Ana menü">
+          <a href="#about" data-i18n="navAbout">Hakkında</a>
+          <a href="#gallery" data-i18n="navGallery">Galeri</a>
+          <a href="menu.html" data-i18n="navMenu">Menü</a>
+        </nav>
+      </div>
+
+      <a class="brand-wordmark" href="index.html" aria-label="Ararat Terrace Restaurant & Rooftop">
+        <span class="brand-line brand-line-1">ARARAT TERRACE</span>
+        <span class="brand-line brand-line-2">RESTAURANT &</span>
+        <span class="brand-line brand-line-3">ROOFTOP</span>
+        <span class="brand-city">Istanbul, Turkey</span>
+      </a>
+
+      <div class="header-actions">
+        <div class="lang-shell">
+          <select id="lang-select-main" class="lang-switcher" data-lang-switcher aria-label="Dil seçimi">
+            <option value="tr">TR</option>
+            <option value="en">EN</option>
+            <option value="ar">AR</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow" data-i18n="heroEyebrow">Sultanahmet'te Manzaralı Akşam</p>
+        <h1 data-i18n="heroTitle">Ararat Terrace Restaurant & Rooftop</h1>
+        <p class="hero-text" data-i18n="heroText">
+          Blue Mosque manzarasına karşı özgün Türk mutfağı, deniz mahsulleri ve gün batımı atmosferi.
+        </p>
+
+        <div class="hero-badges">
+          <span class="chip">⭐ 4.8 · 5,204 <span data-i18n="reviewsWord">yorum</span></span>
+          <span class="chip" data-i18n="openUntil">Bugün 23:30'a kadar açık</span>
+          <span class="chip" data-i18n="serviceTypes">Mekanda servis · Paket · No-contact delivery</span>
+        </div>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="menu.html" data-i18n="ctaMenu">QR Menüye Git</a>
+          <a class="btn btn-outline" href="https://www.quandoo.com.tr/tr/place/ararat-terrace-rooftop-restaurant-88566" target="_blank" rel="noreferrer" data-i18n="ctaReserve">Masa Ayırt</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-info reveal">
+      <div class="container info-grid">
+        <article class="info-card">
+          <h3 data-i18n="cardViewTitle">Blue Mosque Manzarası</h3>
+          <p data-i18n="cardViewText">Teras katında İstanbul siluetine karşı akşam yemeği deneyimi.</p>
+        </article>
+        <article class="info-card">
+          <h3 data-i18n="cardServiceTitle">Servis Seçenekleri</h3>
+          <p data-i18n="cardServiceText">Mekanda servis, drive-through ve no-contact delivery seçenekleri.</p>
+        </article>
+        <article class="info-card">
+          <h3 data-i18n="cardLocationTitle">Merkezi Konum</h3>
+          <p data-i18n="cardLocationText">Sultan Ahmet, Torun Sk. No:3 D:101, Fatih / İstanbul.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about reveal" id="about">
+      <div class="container split-grid">
+        <div class="visual-card">
+          <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=80" alt="İstanbul'da tarihi cami manzaralı akşam yemeği">
+        </div>
+        <div class="about-copy">
+          <h2 data-i18n="aboutTitle">İstanbul'un En Güçlü Rooftop Akşamı</h2>
+          <p data-i18n="aboutBody">
+            Ararat Terrace, tarihi yarımadanın kalbinde yer alır. İmzalı kebaplardan taze deniz mahsullerine kadar geniş bir menüyle
+            hem turistler hem yerel misafirler için premium bir atmosfer sunar.
+          </p>
+          <ul class="feature-list">
+            <li data-i18n="aboutItem1">5,204+ değerlendirme ile 4.8 puan</li>
+            <li data-i18n="aboutItem2">Aile yemeği, romantik akşam ve grup rezervasyonlarına uygun</li>
+            <li data-i18n="aboutItem3">Canlı şehir ritmini hisseden sakin rooftop konsepti</li>
+          </ul>
+          <div class="about-actions">
+            <a class="btn btn-primary" href="tel:+905342999414" data-i18n="ctaCall">Ara</a>
+            <a class="btn btn-outline" href="https://maps.google.com/?q=Sultan+Ahmet+Torun+Sk+No+3+Fatih+Istanbul" target="_blank" rel="noreferrer" data-i18n="ctaDirections">Yol Tarifi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery reveal" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="galleryTitle">Ambiyans ve Lezzet</h2>
+          <p data-i18n="gallerySubtitle">Mekandan ve sunumlardan seçilmiş kareler.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1100&q=80" alt="Rooftop restoran alanı">
+          <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=1100&q=80" alt="Akşam yemeği servisi">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1100&q=80" alt="Türk mutfağı tabağı">
+          <img src="https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&w=1100&q=80" alt="Tatlı servisi">
+          <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1100&q=80" alt="Deniz mahsulü tabakları">
+          <img src="https://images.unsplash.com/photo-1528605105345-5344ea20e269?auto=format&fit=crop&w=1100&q=80" alt="İstanbul manzaralı teras">
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials reveal">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="reviewTitle">Misafirler Ne Diyor?</h2>
+          <p data-i18n="reviewSubtitle">Gerçek ziyaretçilerden öne çıkan yorumlar.</p>
+        </div>
+        <div class="review-grid">
+          <article class="review-card">
+            <p data-i18n="review1">"Rooftop gece manzarası mükemmeldi, servis çok profesyoneldi ve yemekler çok lezzetliydi."</p>
+            <span>Shah Wira</span>
+          </article>
+          <article class="review-card">
+            <p data-i18n="review2">"Sakin atmosferi, temizliği ve manzarasıyla İstanbul’da özel bir akşam için harika bir seçim."</p>
+            <span>Tanzilou Cutler</span>
+          </article>
+          <article class="review-card">
+            <p data-i18n="review3">"Blue Mosque manzarası 10/10. Yemeğin kalitesi ve sunumu beklentimin üstündeydi."</p>
+            <span>Tiara Balentine</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact reveal">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <h2 data-i18n="contactTitle">Konum & İletişim</h2>
+          <p><strong data-i18n="addressLabel">Adres:</strong> Sultan Ahmet, Torun Sk. No:3 D:101, 34400 Fatih / İstanbul</p>
+          <p><strong data-i18n="phoneLabel">Telefon:</strong> <a href="tel:+905342999414">0534 299 94 14</a></p>
+          <p><strong data-i18n="hoursLabel">Saatler:</strong> <span data-i18n="hoursValue">Her gün 09:00 - 23:30</span></p>
+          <a class="btn btn-primary" href="menu.html" data-i18n="ctaMenu">QR Menüye Git</a>
+        </div>
+        <div class="map-box">
+          <img src="https://images.unsplash.com/photo-1527777853578-6c7f0bcd6b9d?auto=format&fit=crop&w=1200&q=80" alt="Sultanahmet sokak dokusu">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p data-i18n="footerLine">Ararat Terrace Restaurant & Rooftop · İstanbul, Türkiye</p>
+      <a href="menu.html" data-i18n="navMenu">Menü</a>
+    </div>
+  </footer>
+</body>
+</html>
